@@ -1,0 +1,11 @@
+0.7
+2020.2
+Mar 19 2026
+19:50:51
+C:/Users/trucmai/fpga_lab_session/session2_assignment/session2_assignment.sim/sim_1/behav/xsim/glbl.v,1762536278,verilog,,,,glbl,,,,,,,,
+C:/Users/trucmai/fpga_lab_session/session2_assignment/session2_assignment.srcs/sources_1/new/counter.v,1791273906,verilog,,C:/Users/trucmai/fpga_lab_session/session2_assignment/session2_assignment.srcs/sources_1/new/counter_tb.v,,counter,,,../../../../../../../../AMDDesignTools/2025.2.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/trucmai/fpga_lab_session/session2_assignment/session2_assignment.srcs/sources_1/new/counter_tb.v,1791272922,verilog,,,,counter_tb,,,../../../../../../../../AMDDesignTools/2025.2.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/trucmai/fpga_lab_session/session2_assignment/session2_assignment.srcs/sources_1/new/four_bit_counter.v,1791270994,verilog,,C:/Users/trucmai/fpga_lab_session/session2_assignment/session2_assignment.srcs/sources_1/new/timer_1s.v,,four_bit_counter,,,../../../../../../../../AMDDesignTools/2025.2.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/trucmai/fpga_lab_session/session2_assignment/session2_assignment.srcs/sources_1/new/four_bit_counter_tb.v,1791271532,verilog,,,,four_bit_counter_tb,,,../../../../../../../../AMDDesignTools/2025.2.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/trucmai/fpga_lab_session/session2_assignment/session2_assignment.srcs/sources_1/new/timer_1s.v,1791232009,verilog,,C:/Users/trucmai/fpga_lab_session/session2_assignment/session2_assignment.srcs/sources_1/new/timer_1s_tb.v,,timer_1s,,,../../../../../../../../AMDDesignTools/2025.2.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/trucmai/fpga_lab_session/session2_assignment/session2_assignment.srcs/sources_1/new/timer_1s_tb.v,1791272629,verilog,,,,timer_1s_tb,,,../../../../../../../../AMDDesignTools/2025.2.1/Vivado/data/rsb/busdef,,,,,
