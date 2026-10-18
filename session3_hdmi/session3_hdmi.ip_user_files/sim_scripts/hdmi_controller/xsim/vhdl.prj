@@ -1,0 +1,12 @@
+vhdl xil_defaultlib  \
+"../../../../session3_hdmi.gen/sources_1/bd/hdmi_controller/ipshared/d57c/src/ClockGen.vhd" \
+"../../../../session3_hdmi.gen/sources_1/bd/hdmi_controller/ipshared/d57c/src/SyncAsync.vhd" \
+"../../../../session3_hdmi.gen/sources_1/bd/hdmi_controller/ipshared/d57c/src/SyncAsyncReset.vhd" \
+"../../../../session3_hdmi.gen/sources_1/bd/hdmi_controller/ipshared/d57c/src/DVI_Constants.vhd" \
+"../../../../session3_hdmi.gen/sources_1/bd/hdmi_controller/ipshared/d57c/src/OutputSERDES.vhd" \
+"../../../../session3_hdmi.gen/sources_1/bd/hdmi_controller/ipshared/d57c/src/TMDS_Encoder.vhd" \
+"../../../../session3_hdmi.gen/sources_1/bd/hdmi_controller/ipshared/d57c/src/rgb2dvi.vhd" \
+"../../../bd/hdmi_controller/ip/hdmi_controller_rgb2dvi_0_0/sim/hdmi_controller_rgb2dvi_0_0.vhd" \
+
+# Do not sort compile order
+nosort

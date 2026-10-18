@@ -1,0 +1,12 @@
+verilog xil_defaultlib -i "../../../../../../../../AMDDesignTools/2025.2.1/Vivado/data/rsb/busdef" --include "../../../../session3_hdmi.gen/sources_1/bd/hdmi_controller/ipshared/623a" \
+"../../../bd/hdmi_controller/ip/hdmi_controller_video_timings_0_0/sim/hdmi_controller_video_timings_0_0.v" \
+"../../../bd/hdmi_controller/ip/hdmi_controller_video_patterns_0_0/sim/hdmi_controller_video_patterns_0_0.v" \
+"../../../bd/hdmi_controller/ip/hdmi_controller_xlconcat_0_0/sim/hdmi_controller_xlconcat_0_0.v" \
+"../../../bd/hdmi_controller/ip/hdmi_controller_clk_wiz_0_0/hdmi_controller_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/hdmi_controller/ip/hdmi_controller_clk_wiz_0_0/hdmi_controller_clk_wiz_0_0.v" \
+"../../../bd/hdmi_controller/sim/hdmi_controller.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
