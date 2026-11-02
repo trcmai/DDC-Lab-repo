@@ -1,0 +1,41 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.900662",
+   "Default View_TopLeft":"-235,-10",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_i_clk -pg 1 -lvl 0 -x -20 -y 60 -defaultsOSRD
+preplace port port-id_i_switch_up -pg 1 -lvl 0 -x -20 -y 200 -defaultsOSRD
+preplace port port-id_i_switch_down -pg 1 -lvl 0 -x -20 -y 320 -defaultsOSRD
+preplace port port-id_i_switch_left -pg 1 -lvl 0 -x -20 -y 440 -defaultsOSRD
+preplace port port-id_i_switch_right -pg 1 -lvl 0 -x -20 -y 560 -defaultsOSRD
+preplace port port-id_i_rst -pg 1 -lvl 0 -x -20 -y 120 -defaultsOSRD
+preplace portBus o_led -pg 1 -lvl 4 -x 910 -y 260 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 290 -y 60 -defaultsOSRD
+preplace inst debounce_switch_0 -pg 1 -lvl 2 -x 500 -y 70 -defaultsOSRD
+preplace inst debounce_switch_1 -pg 1 -lvl 2 -x 500 -y 190 -defaultsOSRD
+preplace inst debounce_switch_2 -pg 1 -lvl 2 -x 500 -y 310 -defaultsOSRD
+preplace inst debounce_switch_3 -pg 1 -lvl 2 -x 500 -y 430 -defaultsOSRD
+preplace inst debounce_switch_4 -pg 1 -lvl 2 -x 500 -y 550 -defaultsOSRD
+preplace inst four_LEDs_toggling_0 -pg 1 -lvl 3 -x 770 -y 260 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 3 -x 770 -y 420 -defaultsOSRD
+preplace netloc clk_wiz_0_clk_out1 1 1 2 380 0 640
+preplace netloc clk_in1_0_1 1 0 1 NJ 60
+preplace netloc debounce_switch_0_o_Switch 1 2 1 630 70n
+preplace netloc xlconcat_0_dout 1 2 2 650 180 890
+preplace netloc debounce_switch_1_o_Switch 1 2 1 620 190n
+preplace netloc debounce_switch_2_o_Switch 1 2 1 610 310n
+preplace netloc debounce_switch_3_o_Switch 1 2 1 N 430
+preplace netloc debounce_switch_4_o_Switch 1 2 1 650 450n
+preplace netloc four_LEDs_toggling_0_o_led 1 3 1 N 260
+preplace netloc i_Switch_0_1 1 0 2 NJ 200 NJ
+preplace netloc i_Switch_1_1 1 0 2 NJ 320 NJ
+preplace netloc i_Switch_2_1 1 0 2 NJ 440 NJ
+preplace netloc i_Switch_3_1 1 0 2 NJ 560 NJ
+preplace netloc i_Switch_0_2 1 0 2 NJ 120 390J
+levelinfo -pg 1 -20 290 500 770 910
+pagesize -pg 1 -db -bbox -sgen -170 -30 1030 620
+"
+}
+

@@ -1,0 +1,472 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x44380C1A0C2ABB60",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../lab_session_4.gen/sources_1/bd/four_led",
+      "name": "four_led",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2025.2.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "clk_wiz_0": "",
+      "debounce_switch_0": "",
+      "debounce_switch_1": "",
+      "debounce_switch_2": "",
+      "debounce_switch_3": "",
+      "debounce_switch_4": "",
+      "four_LEDs_toggling_0": "",
+      "xlconcat_0": ""
+    },
+    "ports": {
+      "i_clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "four_led_clk_in1_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "125000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "o_led": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "i_switch_up": {
+        "direction": "I"
+      },
+      "i_switch_down": {
+        "direction": "I"
+      },
+      "i_switch_left": {
+        "direction": "I"
+      },
+      "i_switch_right": {
+        "direction": "I"
+      },
+      "i_rst": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "ip_revision": "18",
+        "xci_name": "four_led_clk_wiz_0_0",
+        "xci_path": "ip\\four_led_clk_wiz_0_0\\four_led_clk_wiz_0_0.xci",
+        "inst_hier_path": "clk_wiz_0",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "CLKIN1_JITTER_PS": {
+            "value": "80.0"
+          },
+          "CLKOUT1_JITTER": {
+            "value": "312.659"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "245.713"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "25.000"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "36.500"
+          },
+          "MMCM_CLKIN1_PERIOD": {
+            "value": "8.000"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "36.500"
+          },
+          "MMCM_DIVCLK_DIVIDE": {
+            "value": "5"
+          },
+          "PRIM_IN_FREQ": {
+            "value": "125.000"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          },
+          "USE_RESET": {
+            "value": "false"
+          }
+        }
+      },
+      "debounce_switch_0": {
+        "vlnv": "xilinx.com:module_ref:debounce_switch:1.0",
+        "ip_revision": "1",
+        "xci_name": "four_led_debounce_switch_0_0",
+        "xci_path": "ip\\four_led_debounce_switch_0_0\\four_led_debounce_switch_0_0.xci",
+        "inst_hier_path": "debounce_switch_0",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "debounce_switch",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_Clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "25000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "i_Switch": {
+            "direction": "I"
+          },
+          "o_Switch": {
+            "direction": "O"
+          }
+        }
+      },
+      "debounce_switch_1": {
+        "vlnv": "xilinx.com:module_ref:debounce_switch:1.0",
+        "ip_revision": "1",
+        "xci_name": "four_led_debounce_switch_1_0",
+        "xci_path": "ip\\four_led_debounce_switch_1_0\\four_led_debounce_switch_1_0.xci",
+        "inst_hier_path": "debounce_switch_1",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "debounce_switch",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_Clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "25000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "i_Switch": {
+            "direction": "I"
+          },
+          "o_Switch": {
+            "direction": "O"
+          }
+        }
+      },
+      "debounce_switch_2": {
+        "vlnv": "xilinx.com:module_ref:debounce_switch:1.0",
+        "ip_revision": "1",
+        "xci_name": "four_led_debounce_switch_2_0",
+        "xci_path": "ip\\four_led_debounce_switch_2_0\\four_led_debounce_switch_2_0.xci",
+        "inst_hier_path": "debounce_switch_2",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "debounce_switch",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_Clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "25000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "i_Switch": {
+            "direction": "I"
+          },
+          "o_Switch": {
+            "direction": "O"
+          }
+        }
+      },
+      "debounce_switch_3": {
+        "vlnv": "xilinx.com:module_ref:debounce_switch:1.0",
+        "ip_revision": "1",
+        "xci_name": "four_led_debounce_switch_3_0",
+        "xci_path": "ip\\four_led_debounce_switch_3_0\\four_led_debounce_switch_3_0.xci",
+        "inst_hier_path": "debounce_switch_3",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "debounce_switch",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_Clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "25000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "i_Switch": {
+            "direction": "I"
+          },
+          "o_Switch": {
+            "direction": "O"
+          }
+        }
+      },
+      "debounce_switch_4": {
+        "vlnv": "xilinx.com:module_ref:debounce_switch:1.0",
+        "ip_revision": "1",
+        "xci_name": "four_led_debounce_switch_4_0",
+        "xci_path": "ip\\four_led_debounce_switch_4_0\\four_led_debounce_switch_4_0.xci",
+        "inst_hier_path": "debounce_switch_4",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "debounce_switch",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_Clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "25000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "i_Switch": {
+            "direction": "I"
+          },
+          "o_Switch": {
+            "direction": "O"
+          }
+        }
+      },
+      "four_LEDs_toggling_0": {
+        "vlnv": "xilinx.com:module_ref:four_LEDs_toggling:1.0",
+        "ip_revision": "1",
+        "xci_name": "four_led_four_LEDs_toggling_0_0",
+        "xci_path": "ip\\four_led_four_LEDs_toggling_0_0\\four_led_four_LEDs_toggling_0_0.xci",
+        "inst_hier_path": "four_LEDs_toggling_0",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "four_LEDs_toggling",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "i_rst",
+                "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "25000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "i_rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "i_push": {
+            "direction": "I",
+            "left": "3",
+            "right": "0",
+            "parameters": {
+              "PortWidth": {
+                "value": "4",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "o_led": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "ip_revision": "7",
+        "xci_name": "four_led_xlconcat_0_0",
+        "xci_path": "ip\\four_led_xlconcat_0_0\\four_led_xlconcat_0_0.xci",
+        "inst_hier_path": "xlconcat_0",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "4"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_in1_0_1": {
+        "ports": [
+          "i_clk",
+          "clk_wiz_0/clk_in1"
+        ]
+      },
+      "clk_wiz_0_clk_out1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "debounce_switch_0/i_Clk",
+          "debounce_switch_1/i_Clk",
+          "debounce_switch_2/i_Clk",
+          "debounce_switch_3/i_Clk",
+          "debounce_switch_4/i_Clk",
+          "four_LEDs_toggling_0/i_clk"
+        ]
+      },
+      "debounce_switch_0_o_Switch": {
+        "ports": [
+          "debounce_switch_0/o_Switch",
+          "four_LEDs_toggling_0/i_rst"
+        ]
+      },
+      "debounce_switch_1_o_Switch": {
+        "ports": [
+          "debounce_switch_1/o_Switch",
+          "xlconcat_0/In0"
+        ]
+      },
+      "debounce_switch_2_o_Switch": {
+        "ports": [
+          "debounce_switch_2/o_Switch",
+          "xlconcat_0/In1"
+        ]
+      },
+      "debounce_switch_3_o_Switch": {
+        "ports": [
+          "debounce_switch_3/o_Switch",
+          "xlconcat_0/In2"
+        ]
+      },
+      "debounce_switch_4_o_Switch": {
+        "ports": [
+          "debounce_switch_4/o_Switch",
+          "xlconcat_0/In3"
+        ]
+      },
+      "four_LEDs_toggling_0_o_led": {
+        "ports": [
+          "four_LEDs_toggling_0/o_led",
+          "o_led"
+        ]
+      },
+      "i_Switch_0_1": {
+        "ports": [
+          "i_switch_up",
+          "debounce_switch_1/i_Switch"
+        ]
+      },
+      "i_Switch_0_2": {
+        "ports": [
+          "i_rst",
+          "debounce_switch_0/i_Switch"
+        ]
+      },
+      "i_Switch_1_1": {
+        "ports": [
+          "i_switch_down",
+          "debounce_switch_2/i_Switch"
+        ]
+      },
+      "i_Switch_2_1": {
+        "ports": [
+          "i_switch_left",
+          "debounce_switch_3/i_Switch"
+        ]
+      },
+      "i_Switch_3_1": {
+        "ports": [
+          "i_switch_right",
+          "debounce_switch_4/i_Switch"
+        ]
+      },
+      "xlconcat_0_dout": {
+        "ports": [
+          "xlconcat_0/dout",
+          "four_LEDs_toggling_0/i_push"
+        ]
+      }
+    }
+  }
+}

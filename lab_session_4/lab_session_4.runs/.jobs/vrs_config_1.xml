@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="four_led_clk_wiz_0_0_synth_1" LaunchDir="C:/Users/trucmai/fpga_lab_session/lab_session_4/lab_session_4.runs/four_led_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="four_led_debounce_switch_4_0_synth_1" LaunchDir="C:/Users/trucmai/fpga_lab_session/lab_session_4/lab_session_4.runs/four_led_debounce_switch_4_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="four_led_four_LEDs_toggling_0_0_synth_1" LaunchDir="C:/Users/trucmai/fpga_lab_session/lab_session_4/lab_session_4.runs/four_led_four_LEDs_toggling_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="four_led_debounce_switch_3_0_synth_1" LaunchDir="C:/Users/trucmai/fpga_lab_session/lab_session_4/lab_session_4.runs/four_led_debounce_switch_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="four_led_debounce_switch_1_0_synth_1" LaunchDir="C:/Users/trucmai/fpga_lab_session/lab_session_4/lab_session_4.runs/four_led_debounce_switch_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="four_led_debounce_switch_0_0_synth_1" LaunchDir="C:/Users/trucmai/fpga_lab_session/lab_session_4/lab_session_4.runs/four_led_debounce_switch_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="four_led_debounce_switch_2_0_synth_1" LaunchDir="C:/Users/trucmai/fpga_lab_session/lab_session_4/lab_session_4.runs/four_led_debounce_switch_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/trucmai/fpga_lab_session/lab_session_4/lab_session_4.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="four_led_clk_wiz_0_0_synth_1"/>
+		<Parent Id="four_led_debounce_switch_4_0_synth_1"/>
+		<Parent Id="four_led_four_LEDs_toggling_0_0_synth_1"/>
+		<Parent Id="four_led_debounce_switch_3_0_synth_1"/>
+		<Parent Id="four_led_debounce_switch_1_0_synth_1"/>
+		<Parent Id="four_led_debounce_switch_0_0_synth_1"/>
+		<Parent Id="four_led_debounce_switch_2_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+		<Parameter Name="general.shortenLongPath" Val="true" Type="bool"/>
+		<Parameter Name="general.usePosixSpawnForFork" Val="true" Type="bool"/>
+	</Parameters>
+	<ProductInfo Name="vivado"/>
+</Runs>
+
